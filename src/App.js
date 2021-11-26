@@ -6,7 +6,8 @@ function App() {
     <Modal hidden={false}  title="Sign In" inputs={[
       {name:'first_name',placeholder:'First Name'},
       {name:'last_name',placeholder:'Last Name'},
-      {name:'email',placeholder:'Email',type:'email'}
+      {name:'email',placeholder:'Email',type:'email'},
+      {name:'password',placeholder:'Password',type:'password'}
       ]}/>
     </div>
   );

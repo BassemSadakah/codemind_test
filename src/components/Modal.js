@@ -13,7 +13,7 @@ function Modal(props) {
     <h1 className="modal_title">{props.title}</h1>
     <form onSubmit={(e)=>form_submit(e,inputs)}>
       {props.inputs.map((input)=>
-        <Input name={input.name} onChangeHandler={onChangeHandler}  placeholder={input.placeholder}/>
+        <Input name={input.name} onChangeHandler={onChangeHandler}  placeholder={input.placeholder} type={input.type}/>
       )}
       <button type='Submit' className="submit_btn">Submit</button>
     </form>

@@ -5,15 +5,11 @@
   transform: translate(-50%, -50%);
   box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
-  /* bottom: 50%; */
-  flex-shrink: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 350px;
   padding: 20px;
-  /* align-items: stretch; */
 }
 .modal_title{
   margin-bottom: 30px;
@@ -27,7 +23,9 @@
   border-radius: 5px;
   padding:9px 18px;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+
 }
 .submit_btn:hover{
   background: #4BA543;
